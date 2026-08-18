@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+
+}
+div.container {
+    width: 100%; /**altura*/
+    height: 100vh; /**largura*/ 
+    display: flex; 
+
+}
+/** Aqui eu declarei que width (largura) e height (altura) são 100%  e display é flex */
+
+
+#div2 {
+    display: flex;
+    background-color: green; /** cor de fundo */
+    text-algin: center; /** alinhamento do texto */
+}
+/** Aqui eu estilizei a div2 através do arquivo style.css alterando a cor de fundo através do id*/

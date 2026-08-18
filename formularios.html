@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <header>
+
+    </header>
+
+    <form action="./formularios.html"> <!--Aqui no actio estou informando para onde eu quero enviar os dados coletados no input -->
+        <label for ="email">Email</label>
+        <input style="display: block;" type="email" name="email" id="email" placeholder="Digite seu email">
+        <label for="password" >Senha</label>
+        <input style="display: block;" type="password" name="password" id="password" placeholder="Digite sua senha">
+        <label for="text">Texto</label>
+        <input style="display:block;" id="text" type="text" name="text">
+        <label for="CheckBox">CheckBox</label>
+        <input style="display: block;" id ="CheckBox" type="checkbox" name="CheckBox">
+        <label for="radio">Masculino</label>
+        <input style="display: block;" id="radio" type="radio" name="radio">
+        <label for="radio" >Feminino</label>
+        <input style="display: block;" id="radio" type="radio" name="radio">
+        <label for="radio">Outro</label>
+        <input style="display: block;" id="radio" type="radio" name="radio">
+        <label for="rang">Rang</label>
+        <input style="display: block;" id="rang" type="range" name="rang">
+        <label for="number">Numero</label>
+        <input style="display: block;" id="number" type="number" name="number">
+        <label for="file">Arquivo</label>
+        <input style="display: block;" id="file" type="file" name="file" >
+        <label for="date">Data</label> 
+        <input style="display: block;" id="date" type="date" name="date">
+        
+        <select style="display: block;" name="dia da semana">
+            <option value="domingo">Domingo</option>
+            <option value="segunda-feira">Segunda-feira</option>
+            <option value="terça-feira">Terça-feira</option>
+            <option value="quarta-feira">Quarta-feira</option>
+            <option value="quinta-feira">Quinta-feira</option>
+            <option value="sexta-feira">Sexta-feira</option>
+            <option value="sábado">Sábado</option>
+        </select>
+        <textarea style="display: block;" name="mensagem" id="mensagem"rows="10">
+
+        </textarea>
+
+        <button>Enviar</button>
+    </form>
+    <!--Cada formulário é usado para inserir dados e cada input acima vai coletar um determinado tipo de dado.--->
+    <!--Eu posso declar os inputs no html dentro da tag form, quanto fora dela. -->
+    <!--Dentro da tag label eu tenho um atributo for que aponta para o id do input correspondente. -->
+    <!--No input, vamos ter alguns atributos como type, name, id, e placeholder. -->
+    <!--O atributo type define o tipo de input.-->
+    <!--O atributo name define o nome do input. -->
+    <!--O atributo id define o identificador único do input. -->
+    <!--O atributo placeholder define o texto de ajuda exibido dentro do input. -->
+    <!--No textarea, temos o atributo rows que define o número de linhas do campo de texto. -->
+    <!--O button é usado para enviar o formulário.-->
+</body>
+</html>
